@@ -1,0 +1,80 @@
+.body {
+  background-color: black;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: verdana;
+  text-align: center;
+}
+.Header {
+  width: 100%;
+  clear: left;
+  border-style: solid;
+  width: 960 px;
+  height: 80 px;
+}
+.Header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Header_box {
+  background-color: rgb(131, 146, 142);
+  border-style: dashed;
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+.Menu {
+  background-color: black;
+  width: 960 px;
+  height: 30 px;
+  float: left;
+  width: 100%;
+}
+.tablinks {
+  background-color: black;
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+.Menu button.active {
+  background-color: #ccc;
+}
+.Menu button:hover {
+  background-color: #ddd;
+}
+.Content {
+  background-color: rgb(33, 153, 137);
+  width: 960 px;
+  height: 600 px;
+  float: left;
+  width: 100%;
+}
+.Content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content_osa {
+  border-style: solid;
+  border-color: rgb(135, 236, 250);
+  float: left;
+  height: 300px;
+  width: 45%;
+  padding: 35px;
+  margin: 32px;
+}
+.Footer {
+  background-color: black;
+  width: 960 px;
+  height: 30 px;
+  float: left;
+  width: 100%;
+}
